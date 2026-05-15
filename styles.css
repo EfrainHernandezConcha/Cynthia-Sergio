@@ -108,7 +108,7 @@ Trabaja con la funcion mostrasElementos() en js.*/
   para que la fila abarque el 100% del container si solo es uno o si son 4 row h-25*/
   .container-fluid{
     height: 100dvh;
-    width: 100dvh;
+    width: 100%;
     }
 
 
