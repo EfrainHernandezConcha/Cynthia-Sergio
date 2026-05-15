@@ -1,0 +1,716 @@
+/*Clase .nombres definida para todos los nombres propios de la invitacion con la fuente
+"Great Vibes" y un font-size de 70px*/
+.nombres{
+    font-family: "Great Vibes", cursive;
+    font-size: 70px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*Clase .letra definida para los textos generales de la invitacion con la fuente 
+"Bacasime Antique" y un font-size de 20px*/
+.letra{
+    font-family: "Bacasime Antique", cursive;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+/*p{
+    font-family: "Bacasime Antique", cursive;
+    font-size: 30px;
+    font-weight: 300;
+    font-style:normal;
+}
+*/
+.instantaneas{
+    border-color: black;
+    border-style:none;
+    border-width: 0.02cm;
+}
+
+
+
+  .hidden{
+    overflow: hidden;
+  }
+
+  .TextOnImage{
+    color: whitesmoke;
+    font-weight: bolder;
+  }
+
+  .flor-chica{
+    height:100%;
+  }
+
+
+
+
+
+ 
+
+
+
+
+/*Clase .oculto y .visible permite una transicion en donde el elemento se encuentra oculto y al hacer
+scroll y entrar  la parte visible de la pantalla aparece el elemento cambiando su opacidad a 1.
+Trabaja con la funcion mostrasElementos() en js.*/
+  .oculto {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 2.5s ease;
+  }
+
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+
+
+
+
+
+
+
+  .oculto-izquierdo {
+    opacity: 1;
+    transform: rotate(180deg) translateX(100%) translateY(10%);
+    transition: all 4s ease;
+    overflow: hidden;
+  }
+
+  .visible-izquierdo {
+    opacity: 1;
+    transform: rotate(180deg) translateX(20%) translateY(10%);
+    transition: all 3s ease;
+    overflow: hidden;
+  }
+
+
+  .img-fluid{
+    width:auto;
+    height: auto;
+  }
+
+
+
+
+
+
+  /*Define la altura para la clase container-fluid la cual es 100% usando dvh dynamic viewport
+  para todos los proyectos se utilizara el container-fluid para cada seccion*/
+
+  /*Despues en base a la cantidad de divisiones que tendra el container se colocan la clase row h-100 
+  para que la fila abarque el 100% del container si solo es uno o si son 4 row h-25*/
+  .container-fluid{
+    height: 100dvh;
+    width: 100dvh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body{
+    background-color:#f8f5f2;
+    font-family: Arial, sans-serif;
+  }
+
+  .rsvp-container{
+    max-width:600px;
+    margin:auto;
+    margin-top:50px;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  }
+
+
+
+  .btn-confirmar{
+    width:100%;
+    padding:12px;
+    font-size:18px;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  body{
+
+    background:rgb(255, 255, 255);
+    color: black;
+}
+
+.contador{
+    text-align: center;
+}
+
+
+
+.tiempo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/****************************************************************************************************/
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.baskervville{
+  font-family: "Baskervville SC", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*Definicion del tamano de fuente con las clases "fs-#" */
+.fs-100{
+  font-size:100px;
+}
+.fs-90{
+  font-size: 90px;
+}
+.fs-80{
+  font-size: 80px;
+}
+.fs-70{
+  font-size: 70px;
+}
+.fs-60{
+  font-size: 60px;
+}
+.fs-50{
+  font-size: 50px;
+}
+.fs-40{
+  font-size: 40px;
+}
+.fs-30{
+  font-size: 30px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-19{
+  font-size: 19px;
+}
+.fs-18{
+  font-size: 18px;
+}
+.fs-17{
+  font-size: 17px;
+}
+.fs-16{
+  font-size: 16px;
+}
+.fs-15{
+  font-size: 15px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-11{
+  font-size: 11px;
+}
+.fs-10{
+  font-size: 10px;
+}
+.fs-9{
+  font-size: 9px;
+}
+.fs-8{
+  font-size: 8px;
+}
+
+
+/*Clases .line y .block para los atributos display:inline y display:block*/
+.inline{
+  display: inline;
+}
+
+.block{
+  display: block;
+}
+
+/*Definicion de la clase .contain emppleado para dividir secciones, con ancho del 100% y altura 100%
+de la ventana grafica (dynamic viewport height */
+.contain{
+  width: 100%;
+  height: 100dvh;
+  border-style: none;
+}
+
+.contain-half{
+  width: 100%;
+  height: 50dvh;
+}
+.contain-quarter{
+  width: 100%;
+  height: 25dvh;
+}
+
+/*Clase para contornos de marcos*/
+  .frame{
+    height: 320px;
+    width: 250px;
+    border-style:ridge;
+    border-color: goldenrod;
+    border-width: 10px;
+    padding: 10px;
+    background-color: rgb(235, 231, 224);
+
+  }
+
+/*Clase iamgen, define que utilizara el 100% del ancho del contenedor padre, regularmente sera el "contain"*/
+.imagen{
+  width: 100%;
+}
+
+/*Clas .sello ajuste el ancho de los sellos utilizados en el cover de la invitacion*/
+.sello{
+  width: 30%;
+}
+
+/*clase .overflow oculta el overflow de una imagen o elemento cuando este excede su contenedor*/
+.overflow{
+  overflow: hidden;
+}
+
+/*Clases .relative .absolute .fijo */
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.fijo{
+  position: fixed;
+}
+
+
+/*Clases rotar-grado utilizado para rotar elementos en 90,180,270 y 360 grados*/
+.rotar-45{
+  transform: rotate(45deg);
+}
+.rotar-90{
+  transform: rotate(90deg);
+}
+.rotar-135{
+  transform: rotate(135deg);
+}
+.rotar-180{
+  transform: rotate(180deg);
+}
+.rotar-225{
+  transform: rotate(225deg);
+}
+.rotar-270{
+  transform: rotate(270deg);
+}
+.rotar-315{
+  transform: rotate(315deg);
+}
+.rotar-360{
+  transform: rotate(360deg);
+}
+
+/*clases .shadow-*/
+
+.shadow-10{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Clase top-# utilizada en conjunto con las clases .relative para el contenedor padre y .absolute*/
+.top--100{
+  top:-100%;
+}
+.top--60{
+  top:-60%;
+}
+.top--50{
+  top:-50%;
+}
+.top--20{
+  top: -20%;
+}
+.top--10{
+  top: -10%;
+}
+.top--5{
+  top: -5%;
+}
+.top-5{
+  top:5%;
+}
+.top-10{
+  top:10%;
+}
+.top-15{
+  top:15%;
+}
+.top-20{
+  top:20%;
+}
+.top-25{
+  top:25%;
+}
+.top-30{
+  top:30%;
+}
+.top-35{
+  top:35%;
+}
+.top-40{
+  top:40%;
+}
+.top-45{
+  top:45%;
+}
+.top-50{
+  top:50%;
+}
+.top-55{
+  top:55%;
+}
+.top-60{
+  top:60%;
+}
+.top-65{
+  top:65%;
+}
+.top-70{
+  top:70%;
+}
+.top-75{
+  top:75%;
+}
+.top-80{
+  top:80%;
+}
+.top-85{
+  top:85%;
+}
+.top-90{
+  top:90%;
+}
+.top-95{
+  top:95%;
+}
+.top-100{
+  top:100%;
+}
+
+
+
+
+.right--10{
+  right: -10%;
+}
+.right--5{
+  right: -5%;
+}
+
+.right-10{
+  right: 10%;
+}
+.right-20{
+  right: 20%;
+}
+.right-30{
+  right: 30%;
+}
+.right-40{
+  right: 40%;
+}
+.right-50{
+  right: 50%;
+}
+.right-60{
+  right: 60%;
+}
+.right-70{
+  right: 70%;
+}
+.right-80{
+  right: 80%;
+}
+
+.z--1{
+  z-index:-1;
+}
+.z-10{
+  z-index:10;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.righted{
+  text-align:right;
+  float: right;
+}
+
+.lefted{
+  text-align:left;
+  float: left;
+}
+
+
+ /*Clase m-1 a m-5 para margenes del 1% al 5%  */
+.m-1{
+  margin: 1%;
+}
+.m-2{
+  margin: 2%;
+}
+.m-3{
+  margin: 3%;
+}
+.m-4{
+  margin: 4%;
+}
+.m-5{
+  margin: 5%;
+}
+
+/*Clase p-1 a p5 para padding del 1% al 5%   */
+.p-1{
+  padding: 1%;
+}
+.p-2{
+  padding: 2%;
+}
+.p-3{
+  padding: 3%;
+}
+.p-4{
+  padding: 4%;
+}
+.p-5{
+  padding: 5%;
+}
+
+.w-20{
+  width: 20%;
+}
+.w-30{
+  width: 30%;
+}
+.w-40{
+  width: 40%;
+}
+.w-50{
+  width: 50%;
+}
+.w-60{
+  width: 60%;
+}
+.w-70{
+  width: 70%;
+}
+.w-80{
+  width: 80%;
+}
+.w-90{
+  width: 90%;
+}
+
+.boton-invisible{
+  background-color:rgba(255, 255, 255, 0);
+  border-style: none;
+  font-family: italianno-regular;
+  color: #727272;
+  
+}
+  /*Font colors*/
+.white{
+  color: white;
+}
+.white-shadow{
+  color: white;
+  text-shadow: 0 0 10px #000000, 0 0 20px #000000 0 0 30px #000000;
+}
+
+/*clase .black-white realiza el cambio de color de fuente de negro a blanco
+al cambiar de ancho de pantalla*/
+.black-white{
+  color: black;
+  text-shadow: 0 0 40px #fff, 0 0 50px #727272, 0 0 60px #727272;
+}
+@media (max-width:768px){
+  .black-white{
+    color: black;
+    text-shadow: 0 0 40px #fff, 0 0 50px #727272, 0 0 60px #727272;
+  }
+}
+@media (min-width:1024px){
+  .black-white{
+    color: white;
+    text-shadow: 0 0 40px #fff, 0 0 50px #727272, 0 0 60px #727272;
+
+  }
+}
+/*Zoom scroller clase para hacer zoom al hacer scroll*/
+ .zoom-scroll{
+    transition: transform 4.5s, opacity 0.5s ;
+    transform: scale(1.1);
+  }
+  .zoom-scroll-on {
+    transform: scale(1.4);
+    opacity: 1;
+  }
+
+
+.elementoOculto{
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+.elementoVisible{
+  opacity: 1;
+  
+}
+/*Displace scroller clase para desplazar de forma lateral elementos*/
+.displace-scroll{
+  position:absolute ;
+  width: 170%;
+  top:-20% ;
+  transform: translateX(-80%) rotate(90deg);
+  transition: all 2.5s ease;
+}
+.displace-scroll-on{
+  position:absolute ;
+  width: 170%;
+  top:-20% ;
+  transform:translateX(-40%) rotate(90deg) ;
+}
+
+
+
+/*Clase .box para las cajas del contador (cuenta regresiva)*/
+
+.box{
+  color: black;
+  padding: 20px;
+  min-width: 100px;
+}
+
+.number{
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style:normal;
+
+}
+.text{
+  font-size: 1rem;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.tittle{
+  text-align:center;
+  margin-bottom:30px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.reproductor{
+  background:rgba(0, 0, 0, 0);
+  width: 100%;
+}
+
+/*****************************************************************************/
+.reproductor-contenedor {
+  cursor: pointer;
+}
+/*
+Diseñar el icono de Play
+.play-icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(140, 132, 80, 0.0);
+  background-color: #f8f5f2;
+  color: black;
+  border-width: 1px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  transition: background 0.3s;
+}
+
+Efecto al pasar el mouse
+.play-icon:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #000000;
+
+}
+ */
+
+/* Ocultar el reproductor nativo por si acaso */
+audio {
+  display: none;
+}
+/**********************************************************************/
+
+
+
+
+
+
+
+img, a,p,img, button, div, br{
+  border-style: none;
+}
